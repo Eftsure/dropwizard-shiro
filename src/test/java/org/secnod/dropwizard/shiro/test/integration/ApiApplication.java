@@ -40,10 +40,11 @@ public class ApiApplication extends Application<ApiConfiguration> {
         for (Object resource : IntegrationTestApplication.createAllIntegrationTestResources()) {
             environment.jersey().register(resource);
         }
-
+        /*
         for (Class<?> resource : IntegrationTestApplication.allIntegrationTestResourceClasses()) {
             environment.jersey().register(resource);
         }
+        */
     }
 
     @Override
