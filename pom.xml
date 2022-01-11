@@ -4,7 +4,7 @@
 
   <groupId>com.github.dsaz-eftsure</groupId>
   <artifactId>dropwizard-shiro</artifactId>
-  <version>initial-dropwizard-2.0</version>
+  <version>initial-dropwizard-1.3.29</version>
 
   <name>${project.groupId}:${project.artifactId}</name>
   <description>A Dropwizard bundle for Apache Shiro.</description>
