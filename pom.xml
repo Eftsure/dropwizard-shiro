@@ -2,13 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.secnod.dropwizard</groupId>
+  <groupId>com.github.dsaz-eftsure</groupId>
   <artifactId>dropwizard-shiro</artifactId>
-  <version>0.3.0-SNAPSHOT</version>
+  <version>initial-dropwizard-2.0</version>
 
   <name>${project.groupId}:${project.artifactId}</name>
   <description>A Dropwizard bundle for Apache Shiro.</description>
-  <url>https://github.com/silb/dropwizard-shiro</url>
+  <url>https://github.com/dsaz-eftsure/dropwizard-shiro</url>
 
   <licenses>
     <license>
@@ -27,14 +27,14 @@
   </developers>
 
   <scm>
-    <connection>scm:git:https://github.com/silb/dropwizard-shiro.git</connection>
-    <developerConnection>scm:git:git@github.com:silb/dropwizard-shiro.git</developerConnection>
+    <connection>scm:git:https://github.com/dsaz-eftsure/dropwizard-shiro.git</connection>
+    <developerConnection>scm:git:git@github.com:dsaz-eftsure/dropwizard-shiro.git</developerConnection>
     <tag>HEAD</tag>
-    <url>https://github.com/silb/dropwizard-shiro</url>
+    <url>https://github.com/dsaz-eftsure/dropwizard-shiro</url>
   </scm>
 
   <issueManagement>
-    <url>https://github.com/silb/dropwizard-shiro/issues</url>
+    <url>https://github.com/dsaz-eftsure/dropwizard-shiro/issues</url>
   </issueManagement>
 
   <distributionManagement>
@@ -134,13 +134,12 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <dropwizard.version>2.0.0</dropwizard.version>
-    <shiro.version>1.4.2</shiro.version>
-    <shiro-jersey.version>0.3.0-SNAPSHOT</shiro-jersey.version>
+    <dropwizard.version>2.0.28</dropwizard.version>
+    <shiro.version>1.8.0</shiro.version>
+    <shiro-jersey.version>0.2.0</shiro-jersey.version>
     <jdk.version>1.8</jdk.version>
-    <jersey.version>2.29.1</jersey.version>
+    <jersey.version>3.0.3</jersey.version>
   </properties>
-
   <build>
     <pluginManagement>
       <plugins>
@@ -164,7 +163,6 @@
           <showWarnings>true</showWarnings>
         </configuration>
       </plugin>
-
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
