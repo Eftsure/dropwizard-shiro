@@ -4,7 +4,7 @@
 
   <groupId>com.github.dsaz-eftsure</groupId>
   <artifactId>dropwizard-shiro</artifactId>
-  <version>initial-dropwizard-1.3.29</version>
+  <version>dropwizard-0.9.1</version>
 
   <name>${project.groupId}:${project.artifactId}</name>
   <description>A Dropwizard bundle for Apache Shiro.</description>
@@ -134,7 +134,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <dropwizard.version>1.3.29</dropwizard.version>
+    <dropwizard.version>0.9.1</dropwizard.version>
     <shiro.version>1.8.0</shiro.version>
     <shiro-jersey.version>0.2.0</shiro-jersey.version>
     <jdk.version>1.8</jdk.version>
