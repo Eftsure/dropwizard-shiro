@@ -135,7 +135,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <dropwizard.version>1.3.29</dropwizard.version>
-    <shiro.version>1.8.0</shiro.version>
+    <shiro.version>1.9.1</shiro.version>
     <shiro-jersey.version>0.2.0</shiro-jersey.version>
     <jdk.version>1.8</jdk.version>
     <jersey.version>3.0.3</jersey.version>
