@@ -4,7 +4,7 @@
 
   <groupId>com.github.den-saz</groupId>
   <artifactId>dropwizard-shiro</artifactId>
-  <version>dropwizard-4.0.7</version>
+  <version>dropwizard-4.0.7-4</version>
 
   <name>${project.groupId}:${project.artifactId}</name>
   <description>A Dropwizard bundle for Apache Shiro.</description>
