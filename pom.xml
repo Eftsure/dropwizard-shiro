@@ -2,13 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.github.den-saz</groupId>
+  <groupId>com.github.Eftsure</groupId>
   <artifactId>dropwizard-shiro</artifactId>
-  <version>dropwizard-4.0.7-jitpack</version>
+  <version>dropwizard-4.0.7-Eftsure</version>
 
   <name>${project.groupId}:${project.artifactId}</name>
   <description>A Dropwizard bundle for Apache Shiro.</description>
-  <url>https://github.com/dsaz-eftsure/dropwizard-shiro</url>
+  <url>https://github.com/Eftsure/dropwizard-shiro</url>
 
   <licenses>
     <license>
