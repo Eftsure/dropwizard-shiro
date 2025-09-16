@@ -134,7 +134,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <dropwizard.version>3.0.1</dropwizard.version>
+    <dropwizard.version>5.0.0</dropwizard.version>
     <shiro.version>1.12.0</shiro.version>
     <shiro-jersey.version>0.3.0</shiro-jersey.version>
     <jdk.version>11</jdk.version>
@@ -217,7 +217,7 @@
           <classpathScope>test</classpathScope>
           <arguments>
             <argument>-classpath</argument>
-            <classpath />
+            <classpath/>
             <argument>org.secnod.dropwizard.shiro.test.integration.ApiApplication</argument>
           </arguments>
         </configuration>
